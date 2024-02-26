@@ -455,6 +455,7 @@ PRODUCT_COPY_FILES += \
 
 # Wifi
 PRODUCT_PACKAGES += \
+    android.hardware.wifi.hostapd@1.0.vendor \
     android.system.net.netd@1.0 \
     android.system.net.netd@1.0.vendor \
     android.hardware.wifi@1.0-service \
